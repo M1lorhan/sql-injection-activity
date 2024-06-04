@@ -40,9 +40,8 @@ app.post('/login', (req, res) =>{
             res.send("Hello <b>" + row.title + '!</b><br /> This file contains all your secret data: <br /><br /> SECRETS <br /><br /> MORE SECRETS <br /><br /> <a href="/index.html">Go back to login</a>');
         }
     });
-    
-    app.listen(4005, () => {
-        console.log('Server is running on 4005!')
-    })
+})
 
+app.listen(3000, () => {
+    console.log('Server is running on 3000!')
 })
